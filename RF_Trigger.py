@@ -26,10 +26,10 @@ msg += (searchURL)
 
 # Send Txt Msg
 from twilio.rest import Client
-account_sid = 'ACdc5b06226e683ccf847ef573ce5766b7' #Twilio Console Dashboard
-auth_token = '61446e40b534c497d934290871b06d15' #Twilio Console Dashboard
-myPhone = '4088575781' # Phone number
-TwilioNumber = '8312788850' # Phone number - Twilio
+account_sid = '' #Twilio Console Dashboard
+auth_token = '' #Twilio Console Dashboard
+myPhone = '' # Phone number
+TwilioNumber = '' # Phone number - Twilio
 client = Client(account_sid, auth_token)
 client.messages.create(
   to=myPhone,
