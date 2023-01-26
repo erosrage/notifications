@@ -44,7 +44,7 @@ client.messages.create(
 #Insert into Postgresql DB
 #Postgresql - Honda@1989
 import psycopg2
-connection = "host='localhost' dbname='crz_listings' user='postgres' password='Honda@1989'"
+connection = "host='' dbname='' user='postgres' password=''"
 conn = psycopg2.connect(connection)
 cursor = conn.cursor()
 id = 0
